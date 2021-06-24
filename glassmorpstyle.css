@@ -1,0 +1,136 @@
+                                                html {
+                                                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                                }
+                                                
+                                                body {
+                                                    display: grid;
+                                                    height: 80vh;
+                                                    margin: 0;
+                                                    place-items: center;
+                                                    background: linear-gradient(to right, #e96812, #fa09da, #eb0918);
+                                                }
+                                                
+                                                .wrapper {
+                                                    position: relative;
+                                                }
+                                                
+                                                .circle {
+                                                    position: absolute;
+                                                    height: 150px;
+                                                    width: 150px;
+                                                    background: black;
+                                                    border-radius: 34px;
+                                                }
+                                                
+                                                .circle1 {
+                                                    background: #e96812;
+                                                    right: -60px;
+                                                    top: -60px;
+                                                }
+                                                
+                                                .circle2 {
+                                                    background: #eb0918;
+                                                    bottom: -60px;
+                                                    left: -60px;
+                                                }
+                                                
+                                                .form {
+                                                    position: relative;
+                                                    width: 400px;
+                                                    height: 400px;
+                                                    display: grid;
+                                                    place-content: center;
+                                                    background: rgba(255, 255, 255, 0.1);
+                                                    border-top: 1px solid rgba(255, 255, 255, 0.5);
+                                                    border-left: 1px solid rgba(255, 255, 255, 0.3);
+                                                    border-right: 1px solid rgba(255, 255, 255, 0.3);
+                                                    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+                                                    border-radius: 12px;
+                                                    font-family: 'Montserrat', sans-serif;
+                                                    backdrop-filter: blur(5px);
+                                                    box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
+                                                }
+                                                
+                                                h1 {
+                                                    font-family: 'Poppins', sans-serif;
+                                                    color: white;
+                                                    letter-spacing: 2px;
+                                                    margin-top: 0;
+                                                }
+                                                
+                                                input,
+                                                button {
+                                                    font-size: 16px;
+                                                    display: block;
+                                                    box-sizing: border-box;
+                                                    width: 100%;
+                                                    margin: 20px auto;
+                                                    padding: 12px 20px;
+                                                    border: none;
+                                                    background: rgba(255, 255, 255, 0.1);
+                                                    border-radius: 12px;
+                                                    border-top: 1px solid rgba(255, 255, 255, 0.2);
+                                                    box-shadow: 0 13px 21px rgba(0, 0, 0, 0.05);
+                                                }
+                                                
+                                                input:focus {
+                                                    outline: none;
+                                                }
+                                                
+                                                input::placeholder {
+                                                    color: white;
+                                                }
+                                                
+                                                button {
+                                                    cursor: pointer;
+                                                    background: #eb0918;
+                                                    color: white;
+                                                    transition: 0.5s;
+                                                }
+                                                
+                                                button:hover {
+                                                    background: #e96812;
+                                                }
+                                                
+                                                .forgot-signup {
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                }
+                                                
+                                                a {
+                                                    color: white;
+                                                    text-decoration: none;
+                                                    font-size: 16px;
+                                                }
+                                                
+                                                a:hover {
+                                                    color: #e96812;
+                                                }
+                                                
+                                                @media only screen and (max-width:500px) {
+                                                    .form {
+                                                        position: relative;
+                                                        width: 350px;
+                                                        height: 350px;
+                                                        display: grid;
+                                                        place-items: center;
+                                                    }
+                                                    body {
+                                                        display: grid;
+                                                        height: 40vh;
+                                                    }
+                                                    input,
+                                                    button {
+                                                        font-size: 14px;
+                                                        display: block;
+                                                        box-sizing: border-box;
+                                                        width: 100%;
+                                                        margin: 15px auto;
+                                                        padding: 12px 20px;
+                                                        border: none;
+                                                        background: rgba(255, 255, 255, 0.1);
+                                                        border-radius: 12px;
+                                                        border-top: 1px solid rgba(255, 255, 255, 0.2);
+                                                        box-shadow: 0 13px 21px rgba(0, 0, 0, 0.05);
+                                                    }
+                                                }
